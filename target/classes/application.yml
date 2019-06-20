@@ -5,6 +5,8 @@ server:
 ---
 spring:
   profiles: local, default
+server:
+  address: 127.0.0.1
 datasource:
   sampleapp:
     url: jdbc:h2:~/tmp
