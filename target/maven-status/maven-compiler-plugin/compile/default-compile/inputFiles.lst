@@ -5,5 +5,6 @@ C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\s
 C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\src\main\java\com\websystique\springboot\controller\RestApiController.java
 C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\src\main\java\com\websystique\springboot\repositories\UserRepository.java
 C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\src\main\java\com\websystique\springboot\service\UserServiceImpl.java
+C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\src\main\java\com\websystique\springboot\configuration\SimpleCORSFilter.java
 C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\src\main\java\com\websystique\springboot\SpringBootCRUDApp.java
 C:\Users\Husny\Documents\Priyantha\git\springboot-angular-crud-monolith-docker\src\main\java\com\websystique\springboot\util\CustomErrorType.java
