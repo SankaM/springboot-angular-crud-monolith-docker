@@ -14,3 +14,8 @@ https://stackoverflow.com/questions/51759395/docker-image-running-but-cant-acces
 docker-machine ip -> get the docker machine ip
 
 use it to access application: 192.168.12.100:8080/login
+
+# docker run
+docker build -t my-test-app .
+
+docker run -p 8080:8080 my-test-app
