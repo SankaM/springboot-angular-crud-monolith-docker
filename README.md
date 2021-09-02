@@ -22,7 +22,7 @@
     * `docker run -p 8080:8080 my-test-app`
 * Execute the command below to echo the docker machine's IP
     * `docker-machine ip`
-* Replacing `localhost` with the ip of the docker machine, navigate to `localhost:8080/login`
+* Replacing `localhost` with the ip of the docker machine, navigate to `localhost:8080/SpringBootCRUDApp/login`
     * For example `192.168.12.100:8080/login`
 
 
@@ -37,8 +37,12 @@
 * Execute the command below to run the project locally
     * `mvn spring-boot:run`
 
+
+#### Testing Web Server via Browser
+* From a browser, navigate to `http://localhost:8080/SpringBootCRUDApp/h2-console/` and log into the database.
+
 #### Testing Web Server via Postman
-* Launch the [Postman](https://curriculeon.github.io/Curriculeon/lectures/java/web/postman/installation/content.html) app and enter the URI `http://localhost:8080/` and hit Send.
+* Launch the [Postman](https://curriculeon.github.io/Curriculeon/lectures/java/web/postman/installation/content.html) app and enter the URI `http://localhost:8080/SpringBootCRUDApp` and hit Send.
 
 
 
