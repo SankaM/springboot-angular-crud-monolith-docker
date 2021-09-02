@@ -23,7 +23,12 @@
     * [Maven](https://curriculeon.github.io/Curriculeon/lectures/java/build-automation/maven/installation/content.html)
     * [NodeJs](https://curriculeon.github.io/Curriculeon/lectures/nodejs/installation/content.html)
     * [Angular](https://curriculeon.github.io/Curriculeon/lectures/angular/installation/content.html)
+    * [GitBash](https://curriculeon.github.io/Curriculeon/lectures/version-control-systems/git/installation/content.html) is recommended for Windows users
 
+* Execute the command below to give the script executable permissions
+    * `chmod u+x ./kill-8080.ssh`
+* Execute the command below to kill any applications listening on port 8080
+    * `./kill-8080.ssh`
 * Execute the command below to run the project locally
     * `mvn spring-boot:run`
 
