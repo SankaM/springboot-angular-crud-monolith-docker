@@ -4,7 +4,24 @@ server:
   contextPath: /SpringBootCRUDApp
 ---
 spring:
-  profiles: local, default
+  profiles: default
+datasource:
+  sampleapp:
+    url: jdbc:h2:~/tmp
+    username: SA
+    password:
+    driverClassName: org.h2.Driver
+    defaultSchema:
+    maxPoolSize: 10
+    hibernate:
+      hbm2ddl.method: create-drop
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.H2Dialect
+
+---
+spring:
+  profiles: local
 datasource:
   sampleapp:
     url: jdbc:h2:~/tmp
