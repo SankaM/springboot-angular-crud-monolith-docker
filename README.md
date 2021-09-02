@@ -8,7 +8,7 @@
     * **OSX and Linux**
         * ``kill -kill `lsof -t -i tcp:8080` ``
     * **Windows**
-        * _For use in command line_:
+        * _For use in command line_ (**cmd**):
             * `for /f "tokens=5" %a in ('netstat -aon ^| find ":8080" ^| find "LISTENING"') do taskkill /f /pid %a`
         * _For use in bat-file_:
             * `for /f "tokens=5" %%a in ('netstat -aon ^| find ":8080" ^| find "LISTENING"') do taskkill /f /pid %%a`
