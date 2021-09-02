@@ -3,6 +3,15 @@
 * **Objective** - To create a product...
 * **Purpose** - To gain familiarity the following features...
 
+## Stopping Processes from Interfering With Run
+* If your application cannot run because something is occupying a port, use this command with the respective port number specified:
+    * **OSX and Linux**
+        * ``kill -kill `lsof -t -i tcp:8080` ``
+    * **Windows**
+        * _For use in command line_:
+            * `for /f "tokens=5" %a in ('netstat -aon ^| find ":8080" ^| find "LISTENING"') do taskkill /f /pid %a`
+        * _For use in bat-file_:
+            * `for /f "tokens=5" %%a in ('netstat -aon ^| find ":8080" ^| find "LISTENING"') do taskkill /f /pid %%a`
 
 ## Running Web Server (Containerized)
 * **Running this project from a container requires 1 software installation**
@@ -17,18 +26,14 @@
     * For example `192.168.12.100:8080/login`
 
 
-### Running Web Server (Locally)
+## Running Web Server (Locally)
 * **Running this project from locally requires 4 software installations**
     * [Java](https://curriculeon.github.io/Curriculeon/lectures/java/installation/content.html)
     * [Maven](https://curriculeon.github.io/Curriculeon/lectures/java/build-automation/maven/installation/content.html)
     * [NodeJs](https://curriculeon.github.io/Curriculeon/lectures/nodejs/installation/content.html)
     * [Angular](https://curriculeon.github.io/Curriculeon/lectures/angular/installation/content.html)
     * [GitBash](https://curriculeon.github.io/Curriculeon/lectures/version-control-systems/git/installation/content.html) is recommended for Windows users
-
-* Execute the command below to give the script executable permissions
-    * `chmod u+x ./kill-8080.ssh`
-* Execute the command below to kill any applications listening on port 8080
-    * `./kill-8080.ssh`
+    
 * Execute the command below to run the project locally
     * `mvn spring-boot:run`
 
