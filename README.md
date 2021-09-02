@@ -4,8 +4,8 @@
 * **Purpose** - To gain familiarity the following features...
 
 
-### Running Web Server (Containerized)
-* **Required Software Installations**
+## Running Web Server (Containerized)
+* **Running this project from a container requires 1 software installation**
     * [Docker](https://curriculeon.github.io/Curriculeon/lectures/containerization/docker/installation/content.html)
 * Execute the command below to build an image of the containerized application.
     * `docker build -t my-test-app .`
@@ -18,12 +18,11 @@
 
 
 ### Running Web Server (Locally)
-* **Required Software Installations**
+* **Running this project from locally requires 4 software installations**
     * [Java](https://curriculeon.github.io/Curriculeon/lectures/java/installation/content.html)
     * [Maven](https://curriculeon.github.io/Curriculeon/lectures/java/build-automation/maven/installation/content.html)
     * [NodeJs](https://curriculeon.github.io/Curriculeon/lectures/nodejs/installation/content.html)
     * [Angular](https://curriculeon.github.io/Curriculeon/lectures/angular/installation/content.html)
-    * [Docker](https://curriculeon.github.io/Curriculeon/lectures/containerization/docker/installation/content.html)
 
 * Execute the command below to run the project locally
     * `mvn spring-boot:run`
